@@ -17,6 +17,7 @@ model Set {
   id       Int     @id @default(autoincrement())
   element  Int
   qty      Int
+  name_set     String
   Element  Element @relation(fields: [element], references: [element_id])
 
   @@map("sets")

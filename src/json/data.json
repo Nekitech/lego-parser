@@ -1,115 +1,141 @@
 [
     {
         "sets": {
-            "name": "asdasd",
             "details": [
                 {
                     "element": 6393322,
-                    "qty": 24
+                    "qty": 24,
+                    "name_set": "Inventory for 31197-1: Andy Warhol's Marilyn Monroe"
                 },
                 {
                     "element": 235726,
-                    "qty": 4
+                    "qty": 4,
+                    "name_set": "Inventory for 31197-1: Andy Warhol's Marilyn Monroe"
                 },
                 {
                     "element": 242026,
-                    "qty": 4
+                    "qty": 4,
+                    "name_set": "Inventory for 31197-1: Andy Warhol's Marilyn Monroe"
                 },
                 {
                     "element": 244526,
-                    "qty": 4
+                    "qty": 4,
+                    "name_set": "Inventory for 31197-1: Andy Warhol's Marilyn Monroe"
                 },
                 {
                     "element": 246526,
-                    "qty": 12
+                    "qty": 12,
+                    "name_set": "Inventory for 31197-1: Andy Warhol's Marilyn Monroe"
                 },
                 {
                     "element": 300526,
-                    "qty": 12
+                    "qty": 12,
+                    "name_set": "Inventory for 31197-1: Andy Warhol's Marilyn Monroe"
                 },
                 {
                     "element": 300826,
-                    "qty": 12
+                    "qty": 12,
+                    "name_set": "Inventory for 31197-1: Andy Warhol's Marilyn Monroe"
                 },
                 {
                     "element": 301026,
-                    "qty": 8
+                    "qty": 8,
+                    "name_set": "Inventory for 31197-1: Andy Warhol's Marilyn Monroe"
                 },
                 {
                     "element": 302026,
-                    "qty": 1
+                    "qty": 1,
+                    "name_set": "Inventory for 31197-1: Andy Warhol's Marilyn Monroe"
                 },
                 {
                     "element": 416226,
-                    "qty": 20
+                    "qty": 20,
+                    "name_set": "Inventory for 31197-1: Andy Warhol's Marilyn Monroe"
                 },
                 {
                     "element": 428226,
-                    "qty": 8
+                    "qty": 8,
+                    "name_set": "Inventory for 31197-1: Andy Warhol's Marilyn Monroe"
                 },
                 {
                     "element": 4558170,
-                    "qty": 8
+                    "qty": 8,
+                    "name_set": "Inventory for 31197-1: Andy Warhol's Marilyn Monroe"
                 },
                 {
                     "element": 6174917,
-                    "qty": 4
+                    "qty": 4,
+                    "name_set": "Inventory for 31197-1: Andy Warhol's Marilyn Monroe"
                 },
                 {
                     "element": 6284070,
-                    "qty": 629
+                    "qty": 629,
+                    "name_set": "Inventory for 31197-1: Andy Warhol's Marilyn Monroe"
                 },
                 {
                     "element": 6302092,
-                    "qty": 9
+                    "qty": 9,
+                    "name_set": "Inventory for 31197-1: Andy Warhol's Marilyn Monroe"
                 },
                 {
                     "element": 6302093,
-                    "qty": 1
+                    "qty": 1,
+                    "name_set": "Inventory for 31197-1: Andy Warhol's Marilyn Monroe"
                 },
                 {
                     "element": 6316462,
-                    "qty": 1
+                    "qty": 1,
+                    "name_set": "Inventory for 31197-1: Andy Warhol's Marilyn Monroe"
                 },
                 {
                     "element": 4121715,
-                    "qty": 40
+                    "qty": 40,
+                    "name_set": "Inventory for 31197-1: Andy Warhol's Marilyn Monroe"
                 },
                 {
                     "element": 6302094,
-                    "qty": 2
+                    "qty": 2,
+                    "name_set": "Inventory for 31197-1: Andy Warhol's Marilyn Monroe"
                 },
                 {
                     "element": 6322821,
-                    "qty": 587
+                    "qty": 587,
+                    "name_set": "Inventory for 31197-1: Andy Warhol's Marilyn Monroe"
                 },
                 {
                     "element": 242021,
-                    "qty": 4
+                    "qty": 4,
+                    "name_set": "Inventory for 31197-1: Andy Warhol's Marilyn Monroe"
                 },
                 {
                     "element": 6322816,
-                    "qty": 46
+                    "qty": 46,
+                    "name_set": "Inventory for 31197-1: Andy Warhol's Marilyn Monroe"
                 },
                 {
                     "element": 6284577,
-                    "qty": 587
+                    "qty": 587,
+                    "name_set": "Inventory for 31197-1: Andy Warhol's Marilyn Monroe"
                 },
                 {
                     "element": 6284596,
-                    "qty": 131
+                    "qty": 131,
+                    "name_set": "Inventory for 31197-1: Andy Warhol's Marilyn Monroe"
                 },
                 {
                     "element": 6284587,
-                    "qty": 587
+                    "qty": 587,
+                    "name_set": "Inventory for 31197-1: Andy Warhol's Marilyn Monroe"
                 },
                 {
                     "element": 6322819,
-                    "qty": 587
+                    "qty": 587,
+                    "name_set": "Inventory for 31197-1: Andy Warhol's Marilyn Monroe"
                 },
                 {
                     "element": 302201,
-                    "qty": 9
+                    "qty": 9,
+                    "name_set": "Inventory for 31197-1: Andy Warhol's Marilyn Monroe"
                 }
             ]
         }

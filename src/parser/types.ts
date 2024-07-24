@@ -12,6 +12,7 @@ export interface Selector {
   element_introduced_in: string
   design_in_sets: string
   design_introduced_in: string
+  name_set: string
 }
 
 export interface puppeteerSettings {
@@ -27,7 +28,6 @@ export interface puppeteerSettings {
 
 export type SetT = {
     sets: {
-        name: string,
         details: DetailT[]
     }
 }
@@ -35,6 +35,7 @@ export type SetT = {
 export type DetailT = {
     element: number
     qty: number
+    name_set: string
 
 }
 

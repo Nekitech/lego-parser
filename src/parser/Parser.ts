@@ -15,7 +15,6 @@ export class Parser {
 
         const sets : SetT = {
             sets: {
-                name: "asdasd",
                 details: []
             }
         }
@@ -33,9 +32,11 @@ export class Parser {
             const details =  rows.map((el) => {
                 const element = Number(getTextElementBySelector(el, selectors?.element))
                 const qty = Number(getTextElementBySelector(el, selectors?.qty))
+                const name_set = getTextElementBySelector(document.querySelector('body') as Element, selectors.name_set)
                 return {
                     element,
-                    qty
+                    qty,
+                    name_set
                 }
             });
 

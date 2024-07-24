@@ -6,11 +6,12 @@ import { PrismaClient } from "@prisma/client";
 import {DetailT, ElementT, SetT} from "./parser/types.js";
 
 const prisma = new PrismaClient()
-
+const id_set = "31197-1"
 const site1 = {
     name: "brickset.com",
-    site: "https://brickset.com/inventories/31197-1",
+    site: `https://brickset.com/inventories/${id_set}`,
     selectors: {
+        name_set: "header h1",
         element: "td:nth-child(1) > a",
         qty: "td:nth-child(3)",
         colour: "td:nth-child(4) > a",
@@ -48,15 +49,27 @@ async function main() {
     const sets = result[0] as SetT
     const elements = result[1] as ElementT[]
 
-    await sets.sets.details.forEach(async (set: DetailT, ix) => {
-        console.log(set)
+    for (const set of sets.sets.details) {
+        const ix = sets.sets.details.indexOf(set);
+        const [checkElement] = await Promise.all([prisma.element.findUnique({
+            where: {
+                element_id: elements[ix].element_id
+            }
+        })]);
+        if (checkElement) continue;
+         const [checkSet] = await Promise.all([prisma.set.findFirst({
+            where: {
+                element: elements[ix].element_id
+            }
+        })]);
+         if(checkSet) return
         await prisma.element.create({
             data: elements[ix]
-        })
+        });
         await prisma.set.create({
             data: set
-        })
-    })
+        });
+    }
 
 
     const resJson = JSON.stringify(result, null, 4)
