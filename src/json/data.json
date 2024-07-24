@@ -1,0 +1,416 @@
+[
+    {
+        "sets": {
+            "name": "asdasd",
+            "details": [
+                {
+                    "element": 6393322,
+                    "qty": 24
+                },
+                {
+                    "element": 235726,
+                    "qty": 4
+                },
+                {
+                    "element": 242026,
+                    "qty": 4
+                },
+                {
+                    "element": 244526,
+                    "qty": 4
+                },
+                {
+                    "element": 246526,
+                    "qty": 12
+                },
+                {
+                    "element": 300526,
+                    "qty": 12
+                },
+                {
+                    "element": 300826,
+                    "qty": 12
+                },
+                {
+                    "element": 301026,
+                    "qty": 8
+                },
+                {
+                    "element": 302026,
+                    "qty": 1
+                },
+                {
+                    "element": 416226,
+                    "qty": 20
+                },
+                {
+                    "element": 428226,
+                    "qty": 8
+                },
+                {
+                    "element": 4558170,
+                    "qty": 8
+                },
+                {
+                    "element": 6174917,
+                    "qty": 4
+                },
+                {
+                    "element": 6284070,
+                    "qty": 629
+                },
+                {
+                    "element": 6302092,
+                    "qty": 9
+                },
+                {
+                    "element": 6302093,
+                    "qty": 1
+                },
+                {
+                    "element": 6316462,
+                    "qty": 1
+                },
+                {
+                    "element": 4121715,
+                    "qty": 40
+                },
+                {
+                    "element": 6302094,
+                    "qty": 2
+                },
+                {
+                    "element": 6322821,
+                    "qty": 587
+                },
+                {
+                    "element": 242021,
+                    "qty": 4
+                },
+                {
+                    "element": 6322816,
+                    "qty": 46
+                },
+                {
+                    "element": 6284577,
+                    "qty": 587
+                },
+                {
+                    "element": 6284596,
+                    "qty": 131
+                },
+                {
+                    "element": 6284587,
+                    "qty": 587
+                },
+                {
+                    "element": 6322819,
+                    "qty": 587
+                },
+                {
+                    "element": 302201,
+                    "qty": 9
+                }
+            ]
+        }
+    },
+    [
+        {
+            "element_id": 6393322,
+            "colour": "",
+            "category": "Bricks",
+            "design": 44865,
+            "element_name": "BRICK 1X2 W. HORIZONTAL SNAP",
+            "element_in_sets": 42,
+            "element_introduced_in": 2019,
+            "design_in_sets": 216,
+            "design_introduced_in": 2010
+        },
+        {
+            "element_id": 235726,
+            "colour": "Black",
+            "category": "Bricks",
+            "design": 2357,
+            "element_name": "BRICK CORNER 1X2X2",
+            "element_in_sets": 304,
+            "element_introduced_in": 1994,
+            "design_in_sets": 2316,
+            "design_introduced_in": 1993
+        },
+        {
+            "element_id": 242026,
+            "colour": "Black",
+            "category": "Plates",
+            "design": 2420,
+            "element_name": "CORNER PLATE 1X2X2",
+            "element_in_sets": 726,
+            "element_introduced_in": 1991,
+            "design_in_sets": 4375,
+            "design_introduced_in": 1991
+        },
+        {
+            "element_id": 244526,
+            "colour": "Black",
+            "category": "Plates",
+            "design": 2445,
+            "element_name": "PLATE 2X12",
+            "element_in_sets": 397,
+            "element_introduced_in": 1995,
+            "design_in_sets": 1567,
+            "design_introduced_in": 1994
+        },
+        {
+            "element_id": 246526,
+            "colour": "Black",
+            "category": "Bricks",
+            "design": 2465,
+            "element_name": "BRICK 1X16",
+            "element_in_sets": 126,
+            "element_introduced_in": 1994,
+            "design_in_sets": 593,
+            "design_introduced_in": 1993
+        },
+        {
+            "element_id": 300526,
+            "colour": "Black",
+            "category": "Bricks",
+            "design": 3005,
+            "element_name": "BRICK 1X1",
+            "element_in_sets": 693,
+            "element_introduced_in": 1994,
+            "design_in_sets": 6882,
+            "design_introduced_in": 1991
+        },
+        {
+            "element_id": 300826,
+            "colour": "Black",
+            "category": "Bricks",
+            "design": 3008,
+            "element_name": "BRICK 1X8",
+            "element_in_sets": 266,
+            "element_introduced_in": 1994,
+            "design_in_sets": 2075,
+            "design_introduced_in": 1992
+        },
+        {
+            "element_id": 301026,
+            "colour": "Black",
+            "category": "Bricks",
+            "design": 3010,
+            "element_name": "BRICK 1X4",
+            "element_in_sets": 736,
+            "element_introduced_in": 1991,
+            "design_in_sets": 6572,
+            "design_introduced_in": 1991
+        },
+        {
+            "element_id": 302026,
+            "colour": "Black",
+            "category": "Plates",
+            "design": 3020,
+            "element_name": "PLATE 2X4",
+            "element_in_sets": 1537,
+            "element_introduced_in": 1991,
+            "design_in_sets": 11421,
+            "design_introduced_in": 1980
+        },
+        {
+            "element_id": 416226,
+            "colour": "Black",
+            "category": "Plates",
+            "design": 4162,
+            "element_name": "FLAT TILE 1X8",
+            "element_in_sets": 456,
+            "element_introduced_in": 1993,
+            "design_in_sets": 2426,
+            "design_introduced_in": 1991
+        },
+        {
+            "element_id": 428226,
+            "colour": "Black",
+            "category": "Plates",
+            "design": 4282,
+            "element_name": "PLATE 2X16",
+            "element_in_sets": 249,
+            "element_introduced_in": 1994,
+            "design_in_sets": 1026,
+            "design_introduced_in": 1994
+        },
+        {
+            "element_id": 4558170,
+            "colour": "Black",
+            "category": "Plates",
+            "design": 63864,
+            "element_name": "FLAT TILE 1x3",
+            "element_in_sets": 368,
+            "element_introduced_in": 2010,
+            "design_in_sets": 2627,
+            "design_introduced_in": 2007
+        },
+        {
+            "element_id": 6174917,
+            "colour": "Black",
+            "category": "Plates",
+            "design": 11212,
+            "element_name": "PLATE 3X3",
+            "element_in_sets": 150,
+            "element_introduced_in": 2017,
+            "design_in_sets": 812,
+            "design_introduced_in": 2012
+        },
+        {
+            "element_id": 6284070,
+            "colour": "Black",
+            "category": "Plates",
+            "design": 35381,
+            "element_name": "FLAT TILE 1X1, ROUND",
+            "element_in_sets": 260,
+            "element_introduced_in": 2016,
+            "design_in_sets": 2022,
+            "design_introduced_in": 2014
+        },
+        {
+            "element_id": 6302092,
+            "colour": "Black",
+            "category": "Bricks",
+            "design": 65803,
+            "element_name": "BRICK 4/3, 16X16 W/ 4.85 HOLE",
+            "element_in_sets": 14,
+            "element_introduced_in": 2020,
+            "design_in_sets": 18,
+            "design_introduced_in": 2020
+        },
+        {
+            "element_id": 6302093,
+            "colour": "Black",
+            "category": "Miscellaneous",
+            "design": 55819,
+            "element_name": "ELEMENT SEPARATOR, NO. 2",
+            "element_in_sets": 11,
+            "element_introduced_in": 2020,
+            "design_in_sets": 11,
+            "design_introduced_in": 2020
+        },
+        {
+            "element_id": 6316462,
+            "colour": "Black",
+            "category": "Plates",
+            "design": 69533,
+            "element_name": "FLAT TILE 2X4, NO. 220",
+            "element_in_sets": 1,
+            "element_introduced_in": 2020,
+            "design_in_sets": 1,
+            "design_introduced_in": 2020
+        },
+        {
+            "element_id": 4121715,
+            "colour": "Black",
+            "category": "Connectors",
+            "design": 2780,
+            "element_name": "CONNECTOR PEG W. FRICTION",
+            "element_in_sets": 2207,
+            "element_introduced_in": 1993,
+            "design_in_sets": 2207,
+            "design_introduced_in": 1993
+        },
+        {
+            "element_id": 6302094,
+            "colour": "Black",
+            "category": "Technic Beams",
+            "design": 67139,
+            "element_name": "PANEL 3X5, W/ 4.85 HOLE",
+            "element_in_sets": 24,
+            "element_introduced_in": 2020,
+            "design_in_sets": 24,
+            "design_introduced_in": 2020
+        },
+        {
+            "element_id": 6322821,
+            "colour": "Bright Purple",
+            "category": "Plates",
+            "design": 35381,
+            "element_name": "FLAT TILE 1X1, ROUND",
+            "element_in_sets": 22,
+            "element_introduced_in": 2020,
+            "design_in_sets": 2022,
+            "design_introduced_in": 2014
+        },
+        {
+            "element_id": 242021,
+            "colour": "Bright Red",
+            "category": "Plates",
+            "design": 2420,
+            "element_name": "CORNER PLATE 1X2X2",
+            "element_in_sets": 321,
+            "element_introduced_in": 1994,
+            "design_in_sets": 4375,
+            "design_introduced_in": 1991
+        },
+        {
+            "element_id": 6322816,
+            "colour": "Bright Reddish Violet",
+            "category": "Plates",
+            "design": 35381,
+            "element_name": "FLAT TILE 1X1, ROUND",
+            "element_in_sets": 18,
+            "element_introduced_in": 2020,
+            "design_in_sets": 2022,
+            "design_introduced_in": 2014
+        },
+        {
+            "element_id": 6284577,
+            "colour": "Bright Yellow",
+            "category": "Plates",
+            "design": 35381,
+            "element_name": "FLAT TILE 1X1, ROUND",
+            "element_in_sets": 104,
+            "element_introduced_in": 2017,
+            "design_in_sets": 2022,
+            "design_introduced_in": 2014
+        },
+        {
+            "element_id": 6284596,
+            "colour": "Dark Stone Grey",
+            "category": "Plates",
+            "design": 35381,
+            "element_name": "FLAT TILE 1X1, ROUND",
+            "element_in_sets": 120,
+            "element_introduced_in": 2018,
+            "design_in_sets": 2022,
+            "design_introduced_in": 2014
+        },
+        {
+            "element_id": 6284587,
+            "colour": "Light Purple",
+            "category": "Plates",
+            "design": 35381,
+            "element_name": "FLAT TILE 1X1, ROUND",
+            "element_in_sets": 72,
+            "element_introduced_in": 2015,
+            "design_in_sets": 2022,
+            "design_introduced_in": 2014
+        },
+        {
+            "element_id": 6322819,
+            "colour": "Medium Azur",
+            "category": "Plates",
+            "design": 35381,
+            "element_name": "FLAT TILE 1X1, ROUND",
+            "element_in_sets": 31,
+            "element_introduced_in": 2020,
+            "design_in_sets": 2022,
+            "design_introduced_in": 2014
+        },
+        {
+            "element_id": 302201,
+            "colour": "White",
+            "category": "Plates",
+            "design": 3022,
+            "element_name": "PLATE 2X2",
+            "element_in_sets": 1125,
+            "element_introduced_in": 1986,
+            "design_in_sets": 10506,
+            "design_introduced_in": 1986
+        }
+    ]
+]
