@@ -1,0 +1,38 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Set {
+  id       Int     @id @default(autoincrement())
+  element  Int
+  qty      Int
+  Element  Element @relation(fields: [element], references: [element_id])
+
+  @@map("sets")
+}
+
+model Element {
+  element_id            Int      @id @default(autoincrement())
+  colour                String
+  category              String
+  design                Int
+  element_name          String
+  element_in_sets       Int
+  element_introduced_in Int
+  design_in_sets        Int
+  design_introduced_in  Int
+  Details               Set[]
+
+  @@map("elements")
+}

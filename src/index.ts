@@ -2,7 +2,10 @@ import {Parser} from "./parser/Parser.js";
 import puppeteer from "puppeteer";
 import * as fs from "node:fs";
 import path from "node:path";
+import { PrismaClient } from "@prisma/client";
+import {DetailT, ElementT, SetT} from "./parser/types.js";
 
+const prisma = new PrismaClient()
 
 const site1 = {
     name: "brickset.com",
@@ -40,8 +43,28 @@ const parserBrickset = new Parser(site1.site, site1.selectors, {
     waitContent: "div.content div[role='main'] table.neattable tbody"
 })
 
-const result = JSON.stringify((await parserBrickset.parser()), null, 4)
-const filePath = path.resolve('src/json/data.json');
-fs.writeFileSync(filePath, result, 'utf8');
+async function main() {
+    const result = await parserBrickset.parser()
+    const sets = result[0] as SetT
+    const elements = result[1] as ElementT[]
 
-await browser.close()
+    await sets.sets.details.forEach(async (set: DetailT, ix) => {
+        console.log(set)
+        await prisma.element.create({
+            data: elements[ix]
+        })
+        await prisma.set.create({
+            data: set
+        })
+    })
+
+
+    const resJson = JSON.stringify(result, null, 4)
+
+    const filePath = path.resolve('src/json/data.json');
+    fs.writeFileSync(filePath, resJson, 'utf8');
+
+    await browser.close()
+
+}
+main()
